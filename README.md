@@ -95,7 +95,7 @@ Web Build
   server.
 - Set up and run the index.html file.
 
-## 📸 Icons and Images
+## 🖼️ Icons and Images
 
 - [Icons8](https://icons8.com)
 
