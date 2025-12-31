@@ -6,7 +6,7 @@ import '../theme/app_theme_data.dart';
 import '../widgets/card_profile.dart';
 
 class Frontend extends StatelessWidget {
-  const Frontend({Key? key}) : super(key: key);
+  const Frontend({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,11 @@ class Frontend extends StatelessWidget {
       color: AppThemeData.backgroundGrey,
       child: Padding(
         padding: const EdgeInsets.only(
-            top: 40.0, bottom: 40.0, left: 40.0, right: 40.0),
+          top: 40.0,
+          bottom: 40.0,
+          left: 40.0,
+          right: 40.0,
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [

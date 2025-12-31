@@ -10,15 +10,17 @@ import '../theme/responsive_screen_provider.dart';
 import '../widgets/social_profiles.dart';
 
 class Contact extends StatelessWidget {
-  const Contact({Key? key}) : super(key: key);
+  const Contact({super.key});
 
   Widget title() {
-    return SelectableText(DataValues.contactBanner,
-        style: TextStyle(
-          fontSize: AppThemeData.themeData.textTheme.titleMedium!.fontSize,
-          fontWeight: AppThemeData.themeData.textTheme.titleLarge!.fontWeight,
-          color: AppThemeData.textWhite,
-        ));
+    return SelectableText(
+      DataValues.contactBanner,
+      style: TextStyle(
+        fontSize: AppThemeData.themeData.textTheme.titleMedium!.fontSize,
+        fontWeight: AppThemeData.themeData.textTheme.titleLarge!.fontWeight,
+        color: AppThemeData.textWhite,
+      ),
+    );
   }
 
   Widget email(BuildContext context) {
@@ -26,17 +28,17 @@ class Contact extends StatelessWidget {
       cursor: SystemMouseCursors.click,
       child: GestureDetector(
         onTap: () {
-          Clipboard.setData(
-            const ClipboardData(text: DataValues.contactEmail),
-          );
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-            content: Text(
-              'Email successfully copied to clipboard',
-              textAlign: TextAlign.center,
-              style: AppThemeData.themeData.textTheme.bodyLarge,
+          Clipboard.setData(const ClipboardData(text: DataValues.contactEmail));
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
+                'Email successfully copied to clipboard',
+                textAlign: TextAlign.center,
+                style: AppThemeData.themeData.textTheme.bodyLarge,
+              ),
+              duration: const Duration(seconds: 2),
             ),
-            duration: const Duration(seconds: 2),
-          ));
+          );
         },
         child: Tooltip(
           message: 'Click to copy email to clipboard',
@@ -74,7 +76,11 @@ class Contact extends StatelessWidget {
                   Padding(
                     padding: ResponsiveScreenProvider.isDesktopScreen(context)
                         ? const EdgeInsets.only(
-                            left: 160.0, right: 160.0, top: 10.0, bottom: 40.0)
+                            left: 160.0,
+                            right: 160.0,
+                            top: 10.0,
+                            bottom: 40.0,
+                          )
                         : EdgeInsets.zero,
                     child: SelectableText(
                       DataValues.contactDescription,
@@ -104,13 +110,9 @@ class Contact extends StatelessWidget {
                       email(context),
                     ],
                   ),
-            const SizedBox(
-              height: 40.0,
-            ),
+            const SizedBox(height: 40.0),
             const SocialProfiles(),
-            const SizedBox(
-              height: 20.0,
-            ),
+            const SizedBox(height: 20.0),
             MouseRegion(
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
@@ -123,13 +125,16 @@ class Contact extends StatelessWidget {
                 child: Tooltip(
                   message: DataValues.profilesURL.toString(),
                   child: Text(
-                    'Visit profile.dileepabandara.dev to view my all profiles >>',
+                    'Visit flutter-portfolio-site.dileepa.dev to view my all profiles >>',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize:
                           AppThemeData.themeData.textTheme.labelLarge!.fontSize,
                       fontWeight: AppThemeData
-                          .themeData.textTheme.labelLarge!.fontWeight,
+                          .themeData
+                          .textTheme
+                          .labelLarge!
+                          .fontWeight,
                       color: AppThemeData.textGreyDark,
                     ),
                   ),

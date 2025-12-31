@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toolkit_dileepabandara_dev/sections/webgen.dart';
+import 'package:flutter_toolkit_site/sections/webgen.dart';
 
 import '../theme/app_theme_data.dart';
 import '../page/footer.dart';
@@ -13,7 +13,7 @@ import '../sections/business.dart';
 import '../sections/contact.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -35,8 +35,11 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _scrollToTop() {
-    _scrollController.animateTo(0,
-        duration: const Duration(milliseconds: 1000), curve: Curves.easeInOut);
+    _scrollController.animateTo(
+      0,
+      duration: const Duration(milliseconds: 1000),
+      curve: Curves.easeInOut,
+    );
   }
 
   @override
