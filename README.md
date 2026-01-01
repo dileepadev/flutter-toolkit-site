@@ -11,7 +11,19 @@
 
 ## ✨ About
 
-The collection of flexible resource tools that I employ while creating, developing, and maintaining solutions.
+**Flutter Toolkit Site** is a **demo single-page Flutter web project**. It’s **not an app I use in my day-to-day work**. It’s a personal project to **experiment with Flutter and showcase a large collection of tools and technologies in a single-page layout**.
+
+The website organizes hundreds of resources into **grouped lists**, including:
+
+* **Frontend & UI tools**
+* **Backend, APIs & Databases**
+* **DevOps & Cloud tools**
+* **Web3, Blockchain & AI/ML libraries**
+* **Code editors, IDEs & Pair Programming tools**
+* **Designing & Media software**
+* **Productivity, Business & Analytical tools**
+
+It’s also designed as a **template for anyone who wants to build a similar resource hub with Flutter**, making it easy to experiment, learn, or start a personal toolkit website of your own.
 
 ## 🌐 Website
 
@@ -28,7 +40,7 @@ Deployed Website: <https://dileepadev.github.io/flutter-toolkit-site>
 > | First release | v1.0.0 | February 9, 2023 |
 > | Pre-Feature release 1 | v1.1.0 | February 16, 2023 |
 > | Feature release 1 | v1.1.1 | February 16, 2023 |
-> | Feature release 2 | v1.2.0 | December 31, 2025 |
+> | Feature release 2 | v1.2.0 | January 1, 2026 |
 >
 ### 🎉 View all releases
 
@@ -38,72 +50,72 @@ Deployed Website: <https://dileepadev.github.io/flutter-toolkit-site>
 
 Source Code
 
-- [main](https://github.com/dileepadev/flutter-toolkit-site/tree/main) - Stable and latest version
+* [main](https://github.com/dileepadev/flutter-toolkit-site/tree/main) - Stable and latest version
   of the source code
-- [1.0.0](https://github.com/dileepadev/flutter-toolkit-site/tree/1.0.0) - Stable 1.0.0 version of
+* [1.0.0](https://github.com/dileepadev/flutter-toolkit-site/tree/1.0.0) - Stable 1.0.0 version of
   the source code
-- [1.1.1](https://github.com/dileepadev/flutter-toolkit-site/tree/1.1.1) - Stable 1.1.1 version of
+* [1.1.1](https://github.com/dileepadev/flutter-toolkit-site/tree/1.1.1) - Stable 1.1.1 version of
   the source code
-- [1.2.0](https://github.com/dileepadev/flutter-toolkit-site/tree/1.2.0) - Stable 1.2.0 version of
+* [1.2.0](https://github.com/dileepadev/flutter-toolkit-site/tree/1.2.0) - Stable 1.2.0 version of
   the source code
 
 Web Build
 
-- [web-build](https://github.com/dileepadev/flutter-toolkit-site/tree/web-build) - Stable and
+* [web-build](https://github.com/dileepadev/flutter-toolkit-site/tree/web-build) - Stable and
   latest version of the web build
 
 ## 💙 Built With
 
 ### Original (Legacy) Project
 
-- [Flutter](https://flutter.dev)
-  - Flutter 3.7.2 • channel stable
-  - Tools • Dart 2.19.2 • DevTools 2.20.1
-- [GitHub Pages](https://pages.github.com)
+* [Flutter](https://flutter.dev)
+  * Flutter 3.7.2 • channel stable
+  * Tools • Dart 2.19.2 • DevTools 2.20.1
+* [GitHub Pages](https://pages.github.com)
 
 ### Current Project
 
-- [Flutter](https://flutter.dev)
-  - Flutter 3.38.5 • channel stable
-  - Tools • Dart 3.10.4 • DevTools 2.51.1
-- [GitHub Pages](https://pages.github.com)
+* [Flutter](https://flutter.dev)
+  * Flutter 3.38.5 • channel stable
+  * Tools • Dart 3.10.4 • DevTools 2.51.1
+* [GitHub Pages](https://pages.github.com)
 
 ## 📌 Prerequisites
 
-- Setup [Flutter](https://flutter.dev) in the development environment.
-- Setup a code editor like [Android Studio](https://developer.android.com/studio)
+* Setup [Flutter](https://flutter.dev) in the development environment.
+* Setup a code editor like [Android Studio](https://developer.android.com/studio)
   or [Visual Studio Code](https://code.visualstudio.com) in the development environment.
-- Setup [Git](https://git-scm.com) in the development environment.
-- Should be fine with the `flutter doctor` command.
-- Anything related to the Flutter app development.
+* Setup [Git](https://git-scm.com) in the development environment.
+* Should be fine with the `flutter doctor` command.
+* Anything related to the Flutter app development.
 
 ## 💡 How to Setup
 
-- Download or clone the repository.
-- Move the project to the selected directory.
-- Open it with a code editor such as [Android Studio](https://developer.android.com/studio)
+* Download or clone the repository.
+* Move the project to the selected directory.
+* Open it with a code editor such as [Android Studio](https://developer.android.com/studio)
   or [Visual Studio Code](https://code.visualstudio.com).
-- Run `flutter clean` and `pub get` commands.
-- Do not update or upgrade Gradle and other versions until the app is up and running with built
+* Run `flutter clean` and `pub get` commands.
+* Do not update or upgrade Gradle and other versions until the app is up and running with built
   versions.
 
 ## 🚀 How to Run
 
-- Download web-build directory from
+* Download web-build directory from
   the [web-build](https://github.com/dileepadev/flutter-toolkit-site/tree/web-build) branch.
-- Move the build files to a server such as localhost, GitHub Pages, or any other http/https web
+* Move the build files to a server such as localhost, GitHub Pages, or any other http/https web
   server.
-- Set up and run the index.html file.
+* Set up and run the index.html file.
 
 ## 🖼️ Icons and Images
 
-- [Icons8](https://icons8.com)
+* [Icons8](https://icons8.com)
 
 ## 💎 Dependencies
 
-- [Flutter](https://flutter.dev)
-- [URL Launcher](https://pub.dev/packages/url_launcher)
-- [Flutter Native Splash](https://pub.dev/packages/flutter_native_splash)
+* [Flutter](https://flutter.dev)
+* [URL Launcher](https://pub.dev/packages/url_launcher)
+* [Flutter Native Splash](https://pub.dev/packages/flutter_native_splash)
 
 ## 👑 Contributing
 
@@ -126,7 +138,7 @@ Dileepa Bandara
 
 If you want to contact me, leave a message via email.
 
-- Email - <contact@dileepa.dev>
+* Email - <contact@dileepa.dev>
 
 ## 📜 License
 
