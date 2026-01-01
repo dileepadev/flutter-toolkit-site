@@ -1,8 +1,8 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara | Toolkit';
+  static const String appName = 'Flutter Toolkit Site';
   static const String appNameShort = 'Toolkit';
-  static const String appNameLong = 'toolkit.dileepabandara.dev';
+  static const String appNameLong = 'flutter-toolkit-site.dileepa.dev';
   static const String appDescription =
       'Hey! I´m no expert when it comes to these tools. This is a collection of flexible resource tools that '
       'I employ while creating, developing, and maintaining solutions. I just use them to craft, construct, evaluate, '
@@ -15,18 +15,20 @@ class DataValues {
   static const String appPackage = 'dev.dileepabandara.toolkit';
 
   // Social Profiles
-  static Uri devURL = Uri.parse('https://dileepabandara.dev');
-  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
-  static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
-  static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
-  static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
+  static Uri devURL = Uri.parse('http://dileepa.dev');
+  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepadev');
+  static Uri githubURL = Uri.parse('https://github.com/dileepadev');
+  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepadev');
+  static Uri twitterURL = Uri.parse('https://x.com/dileepadev');
+  static Uri youtubeURL = Uri.parse('https://www.youtube.com/@dileepadev');
+  static Uri telegramURL = Uri.parse('https://t.me/dileepadev');
+  static Uri facebookURL = Uri.parse('https://facebook.com/dileepadev');
+  static Uri instagramURL = Uri.parse('https://instagram.com/dileepadev');
 
   // Web Domains
-  static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
+  static Uri profilesURL = Uri.parse(
+    'https://dileepadev.github.io/flutter-portfolio-site',
+  );
 
   // Frontend & UI Tools
   static String frontendTools =
@@ -39,16 +41,19 @@ class DataValues {
   static Uri dartURL = Uri.parse('https://dart.dev');
   static Uri androidURL = Uri.parse('https://developer.android.com');
   static Uri cSharpURL = Uri.parse(
-      'https://learn.microsoft.com/dotnet/csharp?wt.mc_id=studentamb_197162');
+    'https://learn.microsoft.com/dotnet/csharp?wt.mc_id=studentamb_197162',
+  );
   static Uri dotNetURL = Uri.parse('https://dotnet.microsoft.com');
-  static Uri xamarinURL =
-      Uri.parse('https://dotnet.microsoft.com/apps/xamarin');
+  static Uri xamarinURL = Uri.parse(
+    'https://dotnet.microsoft.com/apps/xamarin',
+  );
   static Uri reactURL = Uri.parse('https://reactjs.org');
   static Uri nextJSURL = Uri.parse('https://nextjs.org');
   static Uri wordpressURL = Uri.parse('https://wordpress.org');
   static Uri wixURL = Uri.parse('https://wix.com');
-  static Uri googleSitesURL =
-      Uri.parse('https://workspace.google.com/products/sites');
+  static Uri googleSitesURL = Uri.parse(
+    'https://workspace.google.com/products/sites',
+  );
   static Uri flutterFlowURL = Uri.parse('https://flutterflow.io');
 
   // Backend, API & Database Tools
@@ -56,8 +61,9 @@ class DataValues {
   static Uri javaURL = Uri.parse('https://java.com');
   static Uri kotlinURL = Uri.parse('https://kotlinlang.org');
   static Uri cppURL = Uri.parse('https://isocpp.org');
-  static Uri aspNetCoreURL =
-      Uri.parse('https://dotnet.microsoft.com/apps/aspnet');
+  static Uri aspNetCoreURL = Uri.parse(
+    'https://dotnet.microsoft.com/apps/aspnet',
+  );
   static Uri expressJSURL = Uri.parse('https://expressjs.com');
   static Uri djangoURL = Uri.parse('https://djangoproject.com');
   static Uri nodeJSURL = Uri.parse('https://nodejs.org');
@@ -89,8 +95,9 @@ class DataValues {
   static Uri codemagicURL = Uri.parse('https://codemagic.io');
   static Uri bitriseURL = Uri.parse('https://bitrise.io');
   static Uri circleCIURL = Uri.parse('https://circleci.com');
-  static Uri azureURL =
-      Uri.parse('https://azure.microsoft.com?wt.mc_id=studentamb_197162');
+  static Uri azureURL = Uri.parse(
+    'https://azure.microsoft.com?wt.mc_id=studentamb_197162',
+  );
   static Uri googleCloudURL = Uri.parse('https://cloud.google.com');
   static Uri awsURL = Uri.parse('https://aws.amazon.com');
   static Uri digitalOceanURL = Uri.parse('https://digitalocean.com');
@@ -102,8 +109,9 @@ class DataValues {
   // App Distribution
   static Uri googlePlayURL = Uri.parse('https://play.google.com');
   static Uri appStoreURL = Uri.parse('https://apple.com/app-store');
-  static Uri microsoftStoreURL =
-      Uri.parse('https://apps.microsoft.com/store/apps');
+  static Uri microsoftStoreURL = Uri.parse(
+    'https://apps.microsoft.com/store/apps',
+  );
 
   // Web 3.0, Blockchain & AI/ML Tools
   static Uri solidityURL = Uri.parse('https://soliditylang.org');
@@ -123,17 +131,22 @@ class DataValues {
 
   // Code Editors, IDEs & Pair Programming Tools
   static Uri visualStudioURL = Uri.parse(
-      'https://visualstudio.microsoft.com?wt.mc_id=studentamb_197162');
-  static Uri visualStudioCodeURL =
-      Uri.parse('https://code.visualstudio.com?wt.mc_id=studentamb_197162');
+    'https://visualstudio.microsoft.com?wt.mc_id=studentamb_197162',
+  );
+  static Uri visualStudioCodeURL = Uri.parse(
+    'https://code.visualstudio.com?wt.mc_id=studentamb_197162',
+  );
   static Uri windowsTerminalURL = Uri.parse(
-      'https://learn.microsoft.com/en-us/windows/terminal?wt.mc_id=studentamb_197162');
+    'https://learn.microsoft.com/en-us/windows/terminal?wt.mc_id=studentamb_197162',
+  );
   static Uri sublimeTextURL = Uri.parse('https://sublimetext.com');
-  static Uri jetBrainsToolboxURL =
-      Uri.parse('https://jetbrains.com/toolbox-app');
+  static Uri jetBrainsToolboxURL = Uri.parse(
+    'https://jetbrains.com/toolbox-app',
+  );
   static Uri fleetURL = Uri.parse('https://jetbrains.com/fleet');
-  static Uri androidStudioURL =
-      Uri.parse('https://developer.android.com/studio');
+  static Uri androidStudioURL = Uri.parse(
+    'https://developer.android.com/studio',
+  );
   static Uri intellijIdeaURL = Uri.parse('https://jetbrains.com/idea');
   static Uri pyCharmURL = Uri.parse('https://jetbrains.com/pycharm');
   static Uri webStormURL = Uri.parse('https://jetbrains.com/webstorm');
@@ -143,8 +156,9 @@ class DataValues {
   static Uri codesandboxURL = Uri.parse('https://codesandbox.io');
   static Uri jSFiddleURL = Uri.parse('https://jsfiddle.net');
   static Uri codePenURL = Uri.parse('https://codepen.io');
-  static Uri gitHubCodespacesURL =
-      Uri.parse('https://github.com/features/codespaces');
+  static Uri gitHubCodespacesURL = Uri.parse(
+    'https://github.com/features/codespaces',
+  );
   static Uri gitPodURL = Uri.parse('https://gitpod.io');
   static Uri codeWithMeURL = Uri.parse('https://jetbrains.com/code-with-me');
   static Uri gitHubCoPilotURL = Uri.parse('https://copilot.github.com');
@@ -167,12 +181,14 @@ class DataValues {
   static Uri unsplashURL = Uri.parse('https://unsplash.com');
   static Uri pixabayURL = Uri.parse('https://pixabay.com');
   static Uri playbookURL = Uri.parse('https://playbook.com');
-  static Uri davinciURL =
-      Uri.parse('https://blackmagicdesign.com/products/davinciresolve');
+  static Uri davinciURL = Uri.parse(
+    'https://blackmagicdesign.com/products/davinciresolve',
+  );
   static Uri obsURL = Uri.parse('https://obsproject.com');
   static Uri audacityURL = Uri.parse('https://audacityteam.org');
   static Uri powerToysURL = Uri.parse(
-      'https://learn.microsoft.com/en-us/windows/powertoys?wt.mc_id=studentamb_197162');
+    'https://learn.microsoft.com/en-us/windows/powertoys?wt.mc_id=studentamb_197162',
+  );
   static Uri handBrakeURL = Uri.parse('https://handbrake.fr');
 
   // Business, Management & Analytical Tools
@@ -185,28 +201,39 @@ class DataValues {
   static Uri zoomURL = Uri.parse('https://zoom.us');
   // Microsoft
   static Uri ms365URL = Uri.parse('https://microsoft365.com');
-  static Uri msTeamsURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-teams');
-  static Uri msOutlookURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-365/outlook');
-  static Uri msOneDriveURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-365/onedrive');
-  static Uri msOneNoteURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-365/onenote');
-  static Uri msWordURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-365/word');
-  static Uri msExcelURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-365/excel');
-  static Uri msPowerPointURL =
-      Uri.parse('https://microsoft.com/en-us/microsoft-365/powerpoint');
+  static Uri msTeamsURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-teams',
+  );
+  static Uri msOutlookURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-365/outlook',
+  );
+  static Uri msOneDriveURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-365/onedrive',
+  );
+  static Uri msOneNoteURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-365/onenote',
+  );
+  static Uri msWordURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-365/word',
+  );
+  static Uri msExcelURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-365/excel',
+  );
+  static Uri msPowerPointURL = Uri.parse(
+    'https://microsoft.com/en-us/microsoft-365/powerpoint',
+  );
   static Uri msFormsURL = Uri.parse(
-      'https://microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes');
+    'https://microsoft.com/en-us/microsoft-365/online-surveys-polls-quizzes',
+  );
   static Uri msToDoURL = Uri.parse(
-      'https://microsoft.com/en-us/microsoft-365/microsoft-to-do-list-app');
+    'https://microsoft.com/en-us/microsoft-365/microsoft-to-do-list-app',
+  );
   static Uri msCalendarURL = Uri.parse(
-      'https://apps.microsoft.com/store/detail/mail-and-calendar/9WZDNCRFHVQM');
-  static Uri msPowerAutomateURL =
-      Uri.parse('https://powerautomate.microsoft.com/en-us');
+    'https://apps.microsoft.com/store/detail/mail-and-calendar/9WZDNCRFHVQM',
+  );
+  static Uri msPowerAutomateURL = Uri.parse(
+    'https://powerautomate.microsoft.com/en-us',
+  );
   static Uri msPowerBIURL = Uri.parse('https://powerbi.microsoft.com/en-us');
   // Google for all
   static Uri googleMailURL = Uri.parse('https://google.com/gmail/about');
@@ -218,12 +245,14 @@ class DataValues {
   static Uri googleFormsURL = Uri.parse('https://google.com/forms/about');
   static Uri googleCalendarURL = Uri.parse('https://google.com/calendar/about');
   static Uri googleTasksURL = Uri.parse(
-      'https://play.google.com/store/apps/details?id=com.google.android.apps.tasks&hl=en_US');
+    'https://play.google.com/store/apps/details?id=com.google.android.apps.tasks&hl=en_US',
+  );
   static Uri googleKeepURL = Uri.parse('https://google.com/keep');
   static Uri googlePhotosURL = Uri.parse('https://google.com/photos/about');
   static Uri googleMapsURL = Uri.parse('https://google.com/maps/about');
-  static Uri googleTranslateURL =
-      Uri.parse('https://translate.google.com/about');
+  static Uri googleTranslateURL = Uri.parse(
+    'https://translate.google.com/about',
+  );
   // Google for business
   static Uri googleTagManagerURL = Uri.parse('https://google.com/tagmanager');
   static Uri googleLockerStudioURL = Uri.parse('https://datastudio.google.com');
@@ -232,8 +261,9 @@ class DataValues {
   static Uri googleAdMobURL = Uri.parse('https://admob.google.com');
   static Uri googleMyBusinessURL = Uri.parse('https://mybusiness.google.com');
   static Uri googleAnalyticsURL = Uri.parse('https://analytics.google.com');
-  static Uri googleSearchConsoleURL =
-      Uri.parse('https://search.google.com/search-console');
+  static Uri googleSearchConsoleURL = Uri.parse(
+    'https://search.google.com/search-console',
+  );
   // Email Marketing
   static Uri sendInBlueURL = Uri.parse('https://sendinblue.com');
 
@@ -242,12 +272,13 @@ class DataValues {
   static const String contactDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String contactEmail = 'contact@dileepa.dev';
 
   // Footer
   static const String builtWith = 'Built with Flutter and GitHub Pages.';
-  static Uri repoURL =
-      Uri.parse('https://github.com/dileepabandara/toolkit.dileepabandara.dev');
+  static Uri repoURL = Uri.parse(
+    'https://github.com/dileepadev/flutter-toolkit-site',
+  );
   static const String copyright =
-      'Copyright ©2023 Dileepa Bandara. All Rights Reserved.';
+      'Copyright ©2025 Dileepa Bandara. All Rights Reserved.';
 }

@@ -8,13 +8,13 @@ class CardProfile extends StatelessWidget {
   final String type, widget, title;
   final Uri url;
 
-  const CardProfile(
-      {Key? key,
-      required this.type,
-      required this.widget,
-      required this.title,
-      required this.url})
-      : super(key: key);
+  const CardProfile({
+    super.key,
+    required this.type,
+    required this.widget,
+    required this.title,
+    required this.url,
+  });
 
   Future<void> launchURL(Uri url) async {
     if (!await launchUrl(url)) {
@@ -28,9 +28,7 @@ class CardProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       color: AppThemeData.backgroundBlack,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10.0),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       clipBehavior: Clip.hardEdge,
       child: InkWell(
         mouseCursor: SystemMouseCursors.click,
@@ -41,24 +39,25 @@ class CardProfile extends StatelessWidget {
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Image.network(
-                'https://ghmd.dileepabandara.dev/widgets/$type/dark/$widget.png',
+              Image.asset(
+                'assets/icons/dev/$type/dark/$widget.png',
                 width: 50.0,
                 height: 50.0,
-                errorBuilder: (BuildContext context, Object exception,
-                    StackTrace? stackTrace) {
-                  return Image.network(
-                    'https://ghmd.dileepabandara.dev/widgets/default/dark.png',
-                    width: 50.0,
-                    height: 50.0,
-                  );
-                },
+                errorBuilder:
+                    (
+                      BuildContext context,
+                      Object exception,
+                      StackTrace? stackTrace,
+                    ) {
+                      return Image.asset(
+                        'assets/icons/dev/default/dark.png',
+                        width: 50.0,
+                        height: 50.0,
+                      );
+                    },
               ),
               const SizedBox(width: 10.0),
-              Text(
-                title,
-                style: AppThemeData.themeData.textTheme.labelLarge,
-              ),
+              Text(title, style: AppThemeData.themeData.textTheme.labelLarge),
             ],
           ),
         ),

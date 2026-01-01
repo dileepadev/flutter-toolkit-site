@@ -33,7 +33,6 @@ class AppThemeData {
       brightness: Brightness.dark,
       colorScheme: const ColorScheme.dark(),
       primaryColor: primaryColor,
-      backgroundColor: backgroundBlack,
       scaffoldBackgroundColor: secondaryColor,
       fontFamily: 'Poppins',
       iconTheme: const IconThemeData(color: iconPrimary),
@@ -57,50 +56,51 @@ class AppThemeData {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(buttonSecondary),
-          overlayColor: MaterialStateProperty.resolveWith<Color?>(
-            (Set<MaterialState> states) {
-              if (states.contains(MaterialState.hovered)) {
-                return buttonPrimary;
-              }
-              if (states.contains(MaterialState.focused) ||
-                  states.contains(MaterialState.pressed)) {
-                return buttonPrimary;
-              }
-              return buttonSecondary;
-            },
-          ),
-          foregroundColor: MaterialStateProperty.resolveWith<Color?>(
-            (Set<MaterialState> states) {
-              return textWhite;
-            },
-          ),
-          textStyle: MaterialStateProperty.resolveWith<TextStyle?>(
-            (Set<MaterialState> states) {
-              return const TextStyle(
-                fontFamily: 'Poppins',
-                fontSize: 16.0,
-                fontWeight: FontWeight.w500,
-                color: textWhite,
-              );
-            },
-          ),
-          fixedSize: MaterialStateProperty.resolveWith<Size?>(
-            (Set<MaterialState> states) {
-              return const Size(600, 40);
-            },
-          ),
-          shape: MaterialStateProperty.resolveWith<OutlinedBorder?>(
-            (Set<MaterialState> states) {
-              return RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0));
-            },
-          ),
-          elevation: MaterialStateProperty.resolveWith<double?>(
-            (Set<MaterialState> states) {
-              return 0.0;
-            },
-          ),
+          backgroundColor: WidgetStateProperty.all<Color>(buttonSecondary),
+          overlayColor: WidgetStateProperty.resolveWith<Color?>((
+            Set<WidgetState> states,
+          ) {
+            if (states.contains(WidgetState.hovered)) {
+              return buttonPrimary;
+            }
+            if (states.contains(WidgetState.focused) ||
+                states.contains(WidgetState.pressed)) {
+              return buttonPrimary;
+            }
+            return buttonSecondary;
+          }),
+          foregroundColor: WidgetStateProperty.resolveWith<Color?>((
+            Set<WidgetState> states,
+          ) {
+            return textWhite;
+          }),
+          textStyle: WidgetStateProperty.resolveWith<TextStyle?>((
+            Set<WidgetState> states,
+          ) {
+            return const TextStyle(
+              fontFamily: 'Poppins',
+              fontSize: 16.0,
+              fontWeight: FontWeight.w500,
+              color: textWhite,
+            );
+          }),
+          fixedSize: WidgetStateProperty.resolveWith<Size?>((
+            Set<WidgetState> states,
+          ) {
+            return const Size(600, 40);
+          }),
+          shape: WidgetStateProperty.resolveWith<OutlinedBorder?>((
+            Set<WidgetState> states,
+          ) {
+            return RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10.0),
+            );
+          }),
+          elevation: WidgetStateProperty.resolveWith<double?>((
+            Set<WidgetState> states,
+          ) {
+            return 0.0;
+          }),
         ),
       ),
       snackBarTheme: const SnackBarThemeData(

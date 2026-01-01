@@ -5,7 +5,7 @@ import '../statics/data_values.dart';
 import '../theme/app_theme_data.dart';
 
 class Footer extends StatelessWidget {
-  const Footer({Key? key}) : super(key: key);
+  const Footer({super.key});
 
   Widget getSourceCode(BuildContext context) {
     return MouseRegion(
@@ -36,9 +36,7 @@ class Footer extends StatelessWidget {
       color: AppThemeData.backgroundBlack,
       child: Column(
         children: [
-          const SizedBox(
-            height: 40,
-          ),
+          const SizedBox(height: 40),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -47,22 +45,16 @@ class Footer extends StatelessWidget {
                 DataValues.builtWith,
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
-              const SizedBox(
-                width: 5,
-              ),
+              const SizedBox(width: 5),
               getSourceCode(context),
             ],
           ),
-          const SizedBox(
-            height: 10,
-          ),
+          const SizedBox(height: 10),
           SelectableText(
             DataValues.copyright,
             style: Theme.of(context).textTheme.bodyMedium,
           ),
-          const SizedBox(
-            height: 40,
-          ),
+          const SizedBox(height: 40),
         ],
       ),
     );

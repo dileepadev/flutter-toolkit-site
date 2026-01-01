@@ -6,7 +6,7 @@ import '../theme/app_theme_data.dart';
 import '../widgets/button_rectangle.dart';
 
 class Header extends StatelessWidget {
-  const Header({Key? key}) : super(key: key);
+  const Header({super.key});
 
   void scrollDown(GlobalKey key) {
     Scrollable.ensureVisible(
@@ -75,10 +75,7 @@ class Header extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Image.asset(
-              'assets/images/logo.png',
-              height: 120.0,
-            ),
+            Image.asset('assets/images/logo.png', height: 120.0),
             const SizedBox(height: 5.0),
             SelectableText(
               DataValues.appDeveloper,
@@ -86,13 +83,14 @@ class Header extends StatelessWidget {
             ),
             const SizedBox(height: 5.0),
             SelectableText(
-              DataValues.appNameLong,
+              DataValues.appName,
               style: AppThemeData.themeData.textTheme.titleLarge,
             ),
             const SizedBox(height: 20.0),
             Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: MediaQuery.of(context).size.width * 0.1),
+                horizontal: MediaQuery.of(context).size.width * 0.1,
+              ),
               child: SelectableText(
                 textAlign: TextAlign.center,
                 DataValues.appDescription,
