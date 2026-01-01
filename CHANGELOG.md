@@ -13,6 +13,11 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
+## [v1.2.0] - January 1, 2026
+
+- **Changed:** Clean re-upload to new GitHub account for migration purposes.
+- **Fixed:** Minor compatibility fixes to ensure the project runs correctly in the current environment.
+
 <!-- e.g., -->
 <!-- Unreleased -->
 <!-- v2.0.0 -->
@@ -20,4 +25,5 @@ Changes are organized into the following categories:
 <!-- v1.0.0 -->
 <!-- v0.0.1 -->
 
+[v1.2.0]: https://github.com/dileepadev/flutter-toolkit-site/releases/tag/v1.2.0
 [Unreleased]: https://github.com/dileepadev/flutter-toolkit-site/branches
