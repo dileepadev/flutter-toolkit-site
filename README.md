@@ -106,6 +106,11 @@ Web Build
 * Move the build files to a server such as localhost, GitHub Pages, or any other http/https web
   server.
 * Set up and run the index.html file.
+* Build the project using `flutter build web` command and deploy it to any web server.
+
+  ```bash
+  flutter build web --base-href /flutter-toolkit-site/
+  ```
 
 ## 🖼️ Icons and Images
 
