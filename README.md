@@ -40,7 +40,7 @@ Deployed Website: <https://dileepadev.github.io/flutter-toolkit-site>
 > | First release | v1.0.0 | February 9, 2023 |
 > | Pre-Feature release 1 | v1.1.0 | February 16, 2023 |
 > | Feature release 1 | v1.1.1 | February 16, 2023 |
-> | Feature release 2 | v1.2.0 | January 1, 2026 |
+> | Feature release 2 | v1.2.0 | January 5, 2026 |
 >
 ### 🎉 View all releases
 
