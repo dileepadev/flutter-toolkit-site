@@ -1,11 +1,11 @@
 # Flutter Toolkit Site
 
-![GitHub repo size](https://img.shields.io/github/repo-size/dileepadev/flutter-toolkit-site?color=d62936)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dileepadev/flutter-toolkit-site?color=d4ad21)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dileepadev/flutter-toolkit-site?color=138a3d)
-![GitHub license](https://img.shields.io/github/license/dileepadev/flutter-toolkit-site?color=eb7005)
-![GitHub language count](https://img.shields.io/github/languages/count/dileepadev/flutter-toolkit-site?color=1f77b4)
-![GitHub top language](https://img.shields.io/github/languages/top/dileepadev/flutter-toolkit-site?color=7f0c7f)
+![GitHub repo size](https://img.shields.io/github/repo-size/dileepadev/flutter-toolkit-site?color=d62936&label=Repo%20Size)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dileepadev/flutter-toolkit-site?color=blue&label=Code%20Size)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/dileepadev/flutter-toolkit-site?color=eb7005&label=Commit%20Activity)
+![GitHub last commit](https://img.shields.io/github/last-commit/dileepadev/flutter-toolkit-site?color=2a4a75&label=Last%20Commit)
+![Website status](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fdileepadev.github.io%2Fflutter-toolkit-site&label=Website&color=006400)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/dileepadev/flutter-toolkit-site?color=ff4081&label=Latest%20Release)
 
 ![Preview Image](https://dileepadev.github.io/images/flutter-toolkit-site/preview.png)
 
@@ -40,7 +40,7 @@ Deployed Website: <https://dileepadev.github.io/flutter-toolkit-site>
 > | First release | v1.0.0 | February 9, 2023 |
 > | Pre-Feature release 1 | v1.1.0 | February 16, 2023 |
 > | Feature release 1 | v1.1.1 | February 16, 2023 |
-> | Feature release 2 | v1.2.0 | January 5, 2026 |
+> | Feature release 2 | v1.2.0 | January 6, 2026 |
 >
 ### 🎉 View all releases
 
